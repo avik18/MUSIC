@@ -1,0 +1,15 @@
+*git rebase <master branch>                               combine the feature branch and master branch into one
+*git commit --amend <filename> -m "new message"          -rename commit message
+*git log --oneline					-view commit id upto 7 digits and comit messaage
+*git log --pretty=oneline				-view whole of commit id and commit message
+*git reset <filename>					-unstage files
+*git revert <commit id> 					-uncommit files
+*git checkout -b <branch name>				-create a branch and switch into that branch
+*git branch -d <branch name>				-delete branch
+*git branch -a						-list all branches
+*git branch -r						-show remote branches
+*git commit <filename> -am "commited"			-skip staging area
+*git show 						-show the modified files
+*git diff						-do
+*git remote -v						-show remote repository url
+*git config --list					-show the list of usernames
